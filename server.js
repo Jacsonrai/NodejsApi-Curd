@@ -18,7 +18,7 @@ const ProjectData=[
 
 app.get('/', (req, res)=>{
     
-    res.send(Data)
+    res.send(ProjectData)
 })
 app.post('/post',(req, res)=>{
     req.body.id=Math.random()
